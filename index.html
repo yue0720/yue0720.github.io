@@ -25,7 +25,7 @@
   
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="/css/style.css?v=1570097801606">
+  <link rel="stylesheet" href="/css/style.css?v=1570098044080">
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -128,7 +128,7 @@
         </a>
         <div class="nexmoe-post-meta">
             <a><i class="nexmoefont icon-calendar-fill"></i>2019年10月03日</a>
-            <a><i class="nexmoefont icon-areachart"></i>147 字</a>
+            <a><i class="nexmoefont icon-areachart"></i>148 字</a>
             <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
             
             
@@ -137,7 +137,7 @@
             
             <h3 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这里只介绍用遍历文章法实现的：</span><br></pre></td></tr></table></figure>
 
-<p>第一步<br>在改文件里添加一个series，效果如下：<br><a href="http://i2.tiimg.com/700373/9fa5baa9610e5d51.jpg" target="_blank" rel="noopener">http://i2.tiimg.com/700373/9fa5baa9610e5d51.jpg</a></p>
+<p>第一步<br>在改文件里添加一个series，效果如下：<br>img:<a href="http://i2.tiimg.com/700373/9fa5baa9610e5d51.jpg" target="_blank" rel="noopener">http://i2.tiimg.com/700373/9fa5baa9610e5d51.jpg</a></p>
 <h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ost.series是该篇文章的系列，即第二步中填的值。</span><br><span class="line">if (post.series) 如果有值才调用。</span><br><span class="line">site.posts.sort(‘date’).map(function(p)&#123; 将本站所有的文章按日期排序并遍历</span><br><span class="line">if (post.series == p.series)&#123; 如果改文章的系列和遍历文章的系列一样，则进入</span><br><span class="line">&lt;%- url_for(p.path) %&gt;”&gt;&lt;%= p.title %&gt; 显示出满足文章的url路径和文章标题</span><br></pre></td></tr></table></figure>
 
 
@@ -221,7 +221,7 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<script src="/js/app.js?v=1570097801634"></script>
+<script src="/js/app.js?v=1570098044130"></script>
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
 
 
