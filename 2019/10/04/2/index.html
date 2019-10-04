@@ -3,7 +3,7 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
   
-  <title>2 - 博客</title>
+  <title>书画贩卖商城 - 张浩田博客</title>
   <meta charset="UTF-8">
   <meta name="description" content>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,14 +11,27 @@
   
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/png">
-  <meta property="og:type" content="article">
-<meta property="og:title" content="2">
+  <meta name="description" content="书画贩卖商城前言：运用HTML，CSS布局进行设计实现网上购物商城的系统。使用jQuery中ajax方法与后台数据进行交互。实现了集查看、搜索、购买、支付、评价为一体的商城前台网站。 内容：书画贩卖商城的主要内容为用户块和物品块。用户块主要为:用户注册、登录、个人信息、购物车、订单等。物品块主要为:商城特荐、商品区、新品区、珍品旧物、社区等。 流程图： 首页：  商品信息页 商品购买页 社区页 订">
+<meta name="keywords" content="项目">
+<meta property="og:type" content="article">
+<meta property="og:title" content="书画贩卖商城">
 <meta property="og:url" content="http://yoursite.com/2019/10/04/2/index.html">
-<meta property="og:site_name" content="博客">
+<meta property="og:site_name" content="张浩田博客">
+<meta property="og:description" content="书画贩卖商城前言：运用HTML，CSS布局进行设计实现网上购物商城的系统。使用jQuery中ajax方法与后台数据进行交互。实现了集查看、搜索、购买、支付、评价为一体的商城前台网站。 内容：书画贩卖商城的主要内容为用户块和物品块。用户块主要为:用户注册、登录、个人信息、购物车、订单等。物品块主要为:商城特荐、商品区、新品区、珍品旧物、社区等。 流程图： 首页：  商品信息页 商品购买页 社区页 订">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-04T03:09:09.616Z">
+<meta property="og:image" content="http://i2.tiimg.com/700373/18cc2964bf629d50.png">
+<meta property="og:image" content="http://i2.tiimg.com/700373/3cc4c4390e31df5d.jpg">
+<meta property="og:image" content="http://i2.tiimg.com/700373/26bd3a0fd23ea192.png">
+<meta property="og:image" content="http://i2.tiimg.com/700373/64741024cd460c25.png">
+<meta property="og:image" content="http://i2.tiimg.com/700373/23041c56f22c54d5.png">
+<meta property="og:image" content="http://i2.tiimg.com/700373/dcc1c33f9a5994a2.jpg">
+<meta property="og:image" content="http://i2.tiimg.com/700373/763a76677f8eac52.png">
+<meta property="og:image" content="http://i2.tiimg.com/700373/4815e1dfa4080343.png">
+<meta property="og:updated_time" content="2019-10-04T14:46:23.028Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="2">
+<meta name="twitter:title" content="书画贩卖商城">
+<meta name="twitter:description" content="书画贩卖商城前言：运用HTML，CSS布局进行设计实现网上购物商城的系统。使用jQuery中ajax方法与后台数据进行交互。实现了集查看、搜索、购买、支付、评价为一体的商城前台网站。 内容：书画贩卖商城的主要内容为用户块和物品块。用户块主要为:用户注册、登录、个人信息、购物车、订单等。物品块主要为:商城特荐、商品区、新品区、珍品旧物、社区等。 流程图： 首页：  商品信息页 商品购买页 社区页 订">
+<meta name="twitter:image" content="http://i2.tiimg.com/700373/18cc2964bf629d50.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.15.8/styles/atom-one-dark.css">
    
@@ -26,7 +39,7 @@
   
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="/css/style.css?v=1570159729627">
+  <link rel="stylesheet" href="/css/style.css?v=1570200624724">
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -51,8 +64,8 @@
     </div>
     <div class="nexmoe-count">
         <div><span>文章</span>3</div>
-        <div><span>标签</span>1</div>
-        <div><span>分类</span>1</div>
+        <div><span>标签</span>2</div>
+        <div><span>分类</span>2</div>
     </div>
     <ul class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
         
@@ -118,6 +131,13 @@
         </li>
 
         
+
+        <li class="category-list-item">
+          <a class="category-list-link" href="/categories/项目/">项目</a>
+          <span class="category-list-count">2</span>
+        </li>
+
+        
       </ul>
 
     </div>
@@ -129,12 +149,12 @@
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">标签云</h3>
     <div id="randomtagcloud" class="nexmoe-widget tagcloud">
-      <a href="/tags/随意/" style="font-size: 10px;">随意</a>
+      <a href="/tags/教程/" style="font-size: 10px;">教程</a> <a href="/tags/项目/" style="font-size: 20px;">项目</a>
     </div>
     
       <script>
         var maxTagcloud = parseInt(10);
-        var tags_length = parseInt(1);
+        var tags_length = parseInt(2);
         var tags_arr = [];
         for(var i = 0; i < tags_length; i++){
           tags_arr.push(i);
@@ -176,17 +196,31 @@
         
             <img src="https://i.loli.net/2019/01/13/5c3aec85a4343.jpg">
         
-        <h1>2</h1>
+        <h1>书画贩卖商城</h1>
     </div>
   <div class="nexmoe-post-meta">
     <a><i class="nexmoefont icon-calendar-fill"></i>2019年10月04日</a>
-    <a><i class="nexmoefont icon-areachart"></i>0 字</a>
+    <a><i class="nexmoefont icon-areachart"></i>155 字</a>
     <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
     
+      <a class="nexmoefont icon-appstore-fill -link" href="/categories/项目/">项目</a>
+    
+    
+      <a class="nexmoefont icon-tag-fill -link" href="/tags/项目/">项目</a>
     
   </div>
   <article>
-    
+    <h2 id="书画贩卖商城"><a href="#书画贩卖商城" class="headerlink" title="书画贩卖商城"></a>书画贩卖商城</h2><h4 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h4><p>运用HTML，CSS布局进行设计实现网上购物商城的系统。<br>使用jQuery中ajax方法与后台数据进行交互。实现了集查看、搜索、购买、支付、评价为一体的商城前台网站。</p>
+<h4 id="内容："><a href="#内容：" class="headerlink" title="内容："></a>内容：</h4><p>书画贩卖商城的主要内容为用户块和物品块。<br>用户块主要为:用户注册、登录、个人信息、购物车、订单等。<br>物品块主要为:商城特荐、商品区、新品区、珍品旧物、社区等。</p>
+<h4 id="流程图："><a href="#流程图：" class="headerlink" title="流程图："></a>流程图：</h4><p><img src="http://i2.tiimg.com/700373/18cc2964bf629d50.png" alt="lct"></p>
+<h4 id="首页："><a href="#首页：" class="headerlink" title="首页："></a>首页：</h4><p><img src="http://i2.tiimg.com/700373/3cc4c4390e31df5d.jpg" alt="sy"></p>
+<ul>
+<li>商品信息页<br><img src="http://i2.tiimg.com/700373/26bd3a0fd23ea192.png" alt="xx"></li>
+<li>商品购买页<br><img src="http://i2.tiimg.com/700373/64741024cd460c25.png" alt="sp"><br><img src="http://i2.tiimg.com/700373/23041c56f22c54d5.png" alt="ssp"><br><img src="http://i2.tiimg.com/700373/dcc1c33f9a5994a2.jpg" alt="sp"></li>
+<li>社区页<br><img src="http://i2.tiimg.com/700373/763a76677f8eac52.png" alt="sq"></li>
+<li>订单页<br><img src="http://i2.tiimg.com/700373/4815e1dfa4080343.png" alt="dd"></li>
+</ul>
+
   </article>
   
     
@@ -233,7 +267,7 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<script src="/js/app.js?v=1570159729688"></script>
+<script src="/js/app.js?v=1570200624755"></script>
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
 
 
